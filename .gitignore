@@ -1,0 +1,8 @@
+# Dependencies
+/node_modules
+
+# Compiled output
+/out
+
+# VS Code settings
+.vscode/
