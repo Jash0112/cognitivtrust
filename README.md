@@ -48,5 +48,5 @@ To use the "Refactor with AI" feature, you must add your OpenAI API key to your 
 2.  Click the "Open Settings (JSON)" icon in the top right.
 3.  Add the following line:
     ```json
-    "cognitivtrust.openai.apiKey": "sk-YourSecretApiKeyGoesHere"
+    "cognitivtrust.openai.apiKey": "Paste your key here"
     ```
