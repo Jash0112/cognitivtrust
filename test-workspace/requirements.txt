@@ -1,0 +1,11 @@
+# This version of Flask will be flagged by the 'vulnerable-flask' rule.
+flask==1.1.2
+  
+# This version of Requests will be flagged by the 'vulnerable-requests' rule.
+requests==2.22.0
+
+# This library is not in our rule file, so it will be ignored.
+numpy==1.21.0
+
+# This is a newer, safe version of Flask and will be ignored.
+flask==2.0.1

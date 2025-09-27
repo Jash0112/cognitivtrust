@@ -1,0 +1,16 @@
+rules:
+  - id: vulnerable-flask
+    pattern-regex: (?i)flask==1\.(1\.[0-2]|0\..*)
+    message: "Vulnerable Flask version detected. This version is <= 1.1.2."
+    severity: WARNING
+    languages: [generic]
+    metadata:
+      category: security
+
+  - id: vulnerable-requests
+    pattern-regex: (?i)requests==2\.(2[0-2]\..*|1[0-9]\..*|[0-9]\..*)
+    message: "Vulnerable Requests version detected. This version is <= 2.22.0."
+    severity: WARNING
+    languages: [generic]
+    metadata:
+      category: security
